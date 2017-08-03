@@ -13,14 +13,14 @@ from instabot import InstaBot
 from unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="username",
-    password="password",
+    login="pipolandres",
+    password="teamojah",
     like_per_day=1000,
     comments_per_day=0,
-    tag_list=['follow4follow', 'f4f', 'cute'],
+    tag_list=['tattoo', 'tattooed', 'badboy', 'photography', 'suicidegirl', 'marvel', 'comics', 'spiderman', 'superhero', 'badgirl'],
     tag_blacklist=['rain', 'thunderstorm'],
     user_blacklist={},
-    max_like_for_one_tag=50,
+    max_like_for_one_tag=100,
     follow_per_day=300,
     follow_time=1 * 60,
     unfollow_per_day=300,
